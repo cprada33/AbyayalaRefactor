@@ -1,0 +1,39 @@
+@use '/assets/styles/mixins';
+@import '/assets/styles/variables';
+
+body {
+    font-family: 'Raleway Variable', sans-serif;
+}
+
+.bg-main {
+    background-color: #00bbd6;
+}
+
+.bg-second {
+    background-color: #228fa2;
+}
+.bg-third {
+    background-color: #f1bb1b;
+}
+.color-main {
+    color: #00bbd6;
+}
+
+.color-second {
+    color: #228fa2;
+}
+.color-third {
+    color: #f1bb1b;
+}
+.fourthColor {
+    color: #f59a7f;
+}
+.fifthColor {
+    color: #8c4022;
+}
+.sixthColor {
+    color: #5fb246;
+}
+.seventhColor {
+    color: #4cbfa8;
+}

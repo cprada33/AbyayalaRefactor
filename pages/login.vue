@@ -1,0 +1,3 @@
+<template>
+  <AdminLogin />
+</template>
