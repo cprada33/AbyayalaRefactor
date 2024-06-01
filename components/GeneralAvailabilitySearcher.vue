@@ -18,7 +18,7 @@
           </v-sheet>
         </v-col>
         <v-col cols="2">
-          <DatePicker
+          <GeneralDatePicker
             v-model="dateCheckIn"
             style="width: 230px"
             class="flex-grow-0 pr-2"
@@ -27,7 +27,7 @@
           />
         </v-col>
         <v-col cols="2">
-          <DatePicker
+          <GeneralDatePicker
             v-model="dateCheckOut"
             style="width: 230px"
             class="flex-grow-0"

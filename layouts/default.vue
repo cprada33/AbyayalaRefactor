@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <general-nav-bar />
-    <availability-searcher />
+    <general-availability-searcher />
     <slot />
     <general-footer />
   </v-app>
