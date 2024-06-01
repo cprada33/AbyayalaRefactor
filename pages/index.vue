@@ -1,6 +1,7 @@
 <template>
   <HomeBanner />
-  <BannerImages :styling="styling" :content="content" />
+  <HomeRooms />
+  <ImagesBanner :styling="styling" :content="content" />
   <HomeLocation />
 </template>
 

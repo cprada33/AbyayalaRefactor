@@ -5,8 +5,22 @@
         >CABAÑAS SAFARI</span
       >
     </div>
-    <BannerImages :styling="stylingCabanas" :content="content" />
+    <ImagesBanner :styling="stylingCabanas" :content="content" />
   </div>
+  <v-container>
+    <v-row>
+      <v-col cols="6">
+        <img src="" alt="Cabaña Ancestral" />
+      </v-col>
+      <v-col cols="6">
+        <span>AWÁ KWAIKER</span>
+        <span
+          >Pueblo Indio Americano, que en lengua Awapit significa "Gente de la
+          montaña".</span
+        >
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

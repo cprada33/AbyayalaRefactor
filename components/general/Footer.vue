@@ -4,10 +4,10 @@
     class="pa-0 mt-10"
     style="color: white; font-size: 0.9rem"
   >
-    <v-row class="bg-main">
+    <v-row class="bg-main px-15">
       <v-col
         cols="3"
-        class="d-flex flex-column text-center justify-center"
+        class="d-flex flex-column pa-0 py-5"
         style="font-style: italic"
       >
         <NuxtLink>

@@ -1,16 +1,21 @@
 <template>
-  <v-container :fluid="true" class="pb-10">
-    <v-row>
+  <v-container :fluid="true">
+    <v-row style="height: 80px">
       <v-row class="mr-10">
         <v-col cols="5" class="d-flex justify-end">
-          <v-card
-            max-width="300"
-            max-height="56"
-            title="Disponibilidad"
-            subtitle="Revisemos tus fechas"
-            style="background-color: #228fa2"
+          <v-sheet
+            class="bg-second rounded text-center"
+            style="max-height: 58px"
           >
-          </v-card>
+            <v-container class="h-50">
+              <v-row class="h-50 my-n5 color-white" style="font-weight: 700">
+                <v-col cols="12">DISPONIBILIDAD</v-col>
+              </v-row>
+              <v-row class="h-50 mt-10 color-white">
+                <v-col cols="12">Veamos tus fechas</v-col>
+              </v-row>
+            </v-container>
+          </v-sheet>
         </v-col>
         <v-col cols="2">
           <DatePicker
@@ -30,7 +35,11 @@
           />
         </v-col>
         <v-col cols="3" class="pl-7">
-          <v-btn to="/disponibilidad" icon="mdi-calendar-search" />
+          <v-btn
+            class="bg-second color-white"
+            to="/disponibilidad"
+            icon="mdi-calendar-search"
+          />
         </v-col>
       </v-row>
     </v-row>

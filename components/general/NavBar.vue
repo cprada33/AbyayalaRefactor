@@ -26,7 +26,7 @@
         <img
           src="../../assets/imgs/logoMain.png"
           alt="logo"
-          style="width: 95%"
+          style="width: 90%"
         />
       </NuxtLink>
     </div>
@@ -46,24 +46,6 @@ export default {
   data: () => ({
     drawer: false,
     group: null,
-    items: [
-      {
-        title: 'Foo',
-        value: 'foo',
-      },
-      {
-        title: 'Bar',
-        value: 'bar',
-      },
-      {
-        title: 'Fizz',
-        value: 'fizz',
-      },
-      {
-        title: 'Buzz',
-        value: 'buzz',
-      },
-    ],
     routes: [
       {
         name: 'Inicio',

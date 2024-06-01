@@ -1,7 +1,7 @@
 <template>
-  <v-container :fluid="true">
+  <v-container :fluid="true" class="px-15">
     <v-row class="px-1">
-      <v-col cols="3" v-for="item in content" :style="styling.divStyle">
+      <v-col :cols="columnas" v-for="item in content" :style="styling.divStyle">
         <v-row class="d-flex flex-column" style="height: 100%">
           <v-col class="text-center" style="height: 100%">
             <img
@@ -41,6 +41,10 @@ export default {
   props: {
     styling: Object,
     content: Object,
+    columnas: {
+      type: String,
+      default: '3',
+    },
   },
   setup() {
     const thisRoute = useRoute().path;
